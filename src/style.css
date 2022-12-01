@@ -14,11 +14,13 @@ li {
   display: flex;
   justify-content: center;
   margin-top: 100px;
+
 }
 
 main {
   max-width: 1200px;
   margin: 0 auto;
+  box-shadow: 0 0 10px #3e3e3e;
 }
 
 .app-title {
