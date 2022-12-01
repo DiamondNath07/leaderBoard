@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Kalam&family=Lato:ital,wght@0,700;0,900;1,400&family=Nanum+Gothic&family=Poppins:wght@300;400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  box-shadow: 0 0 10px #3e3e3e;
+}
+
+.app-title {
+  margin-left: -350px;
+  font-size: 30px;
+  text-transform: capitalize;
+  font-family: 'Poppins', sans-serif;
+}
+
+.details {
+  margin-left: -350px;
+  margin-top: 40px;
+
+  /* display: flex; */
+  position: relative;
+}
+
+.container {
+  display: flex;
+}
+
+.scoresheet-details {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+}
+
+.btn-ref {
+  padding: 0 15px;
+  margin-left: 40px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  border: 2px solid #3e3e3e;
+}
+
+.score-dashboard {
+  margin-top: 10px;
+}
+
+.scores {
+  border: 6px solid #3e3e3e;
+}
+
+.lists {
+  display: flex;
+  font-family: 'Poppins', sans-serif;
+  padding: 5px 0 5px 10px;
+  font-size: 16px;
+}
+
+.lists:nth-child(even) {
+  background-color: #3e3e3e;
+  color: #fff;
+}
+
+.scores-no {
+  margin-left: 20px;
+}
+
+.input-records {
+  position: absolute;
+  top: 0;
+  left: 600px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+}
+
+input {
+  width: 250px;
+  padding: 5px 0;
+}
+
+.btn-submit {
+  padding: 5px 20px;
+  margin-top: 10px;
+}
