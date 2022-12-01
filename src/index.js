@@ -8,6 +8,7 @@ const submitForm = document.querySelector('.btn-submit');
 const refreshBtn = document.querySelector('.btn-ref');
 const user = document.getElementById('name');
 const score = document.getElementById('number');
+console.log(score);
 
 UI.getData();
 // Post to the API
@@ -34,6 +35,7 @@ const clearInput = () => {
 submitForm.addEventListener('click', (e) => {
   e.preventDefault();
   pastGameScores();
+  console.log(pastGameScores);
   clearInput();
 });
 
