@@ -1,7 +1,6 @@
 import id from './uniqueId';
 
-const postUrl =
-  'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games';
+const postUrl = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games';
 
 class UI {
   static getData = async () => {
@@ -28,5 +27,5 @@ class UI {
 
     listContainer.appendChild(scoreList);
   }
- }
+}
 export default UI;
