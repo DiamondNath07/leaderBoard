@@ -2,7 +2,7 @@ import './style.css';
 import id from './modules/uniqueId.js';
 import UI from './modules/render.js';
 
-const postUrl ='https://us-central1-js-capstone-backend.cloudfunctions.net/api/games';
+const postUrl = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games';
 const submitForm = document.querySelector('.btn-submit');
 const refreshBtn = document.querySelector('.btn-ref');
 const user = document.getElementById('name');
