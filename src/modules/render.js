@@ -1,4 +1,4 @@
-import id from './uniqueId';
+import id from './uniqueId.js';
 
 const postUrl = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games';
 
