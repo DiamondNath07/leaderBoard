@@ -10,6 +10,6 @@ fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/', {
   .then((response) => response.json())
   .then((data) => data);
 
-const id = 'Y7vp4BFTjdGQ5Bl356Ks';
+const id = 'cq3EqfgQPc8LbMXkz8NO';
 
 export default id;
