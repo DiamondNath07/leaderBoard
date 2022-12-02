@@ -24,13 +24,39 @@ main {
 }
 
 .app-title {
+  padding: 100px 0 0 500px;
   font-size: 30px;
-  text-transform: capitalize;
-  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  /* font-family: 'Poppins', sans-serif; */
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 40px;
+  line-height: 52px;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.623);
+  letter-spacing: 0.5px;
+  font-weight: 700;
+  background: -webkit-linear-gradient(#68aae6, #7eddd1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.app-title::after {
+  /* content: ''; */
+  position: absolute;
+  top: 95px;
+  left: 640px;
+  /* right: 0; */
+  bottom: 0;
+  width: 300px;
+  height: 60px;
+  background-color: transparent;
+  border: 5px solid #68aae6;
+  border-radius: 20px;
 }
 
 .details {
-  margin-top: 40px;
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-around;
 }
 
 .container {
