@@ -6,35 +6,31 @@
   box-sizing: border-box;
 }
 
-li {
-  list-style: none;
+body {
+  background-image: url(../imgs/leaderbd.jpg);
+  background-size: cover;
+  /* background-image: linear-gradient(to bottom right, #1c47ac, #172e62); */
+  height: 100vh;
+  background-repeat: no-repeat;
 }
 
-.section {
-  display: flex;
-  justify-content: center;
-  margin-top: 100px;
+li {
+  list-style: none;
 }
 
 main {
   max-width: 1200px;
   margin: 0 auto;
-  box-shadow: 0 0 10px #3e3e3e;
 }
 
 .app-title {
-  margin-left: -350px;
   font-size: 30px;
   text-transform: capitalize;
   font-family: 'Poppins', sans-serif;
 }
 
 .details {
-  margin-left: -350px;
   margin-top: 40px;
-
-  /* display: flex; */
-  position: relative;
 }
 
 .container {
@@ -79,9 +75,6 @@ main {
 }
 
 .input-records {
-  position: absolute;
-  top: 0;
-  left: 600px;
   font-family: 'Poppins', sans-serif;
   font-size: 20px;
 }
