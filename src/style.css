@@ -85,12 +85,6 @@ main {
   margin-top: 10px;
 }
 
-.scores {
-  /* border: 6px solid #3e3e3e; */
-
-  /* border: 20px 0; */
-}
-
 .lists {
   display: flex;
   justify-content: space-around;
@@ -191,7 +185,7 @@ input {
   }
 
   .app-title {
-    padding: 20px;
+    padding: 60px 20px 0 20px;
   }
 
   .details {
