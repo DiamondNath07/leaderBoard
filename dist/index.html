@@ -6,53 +6,39 @@
     <title>leaderBoard</title>
   <script defer src="main.js"></script></head>
   <body>
-    <section class="section">
-      <main>
-        <header>
-          <h2 class="app-title">leaderboard</h2>
-        </header>
-        <section class="details">
-          <div class="scoresheets">
-            <div class="container">
-              <h4 class="scoresheet-details">Recent scores</h4>
-              <button class="btn-ref">Refresh</button>
-            </div>
-            <div class="score-dashboard">
-              <ul class="scores">
-                <div class="lists">
-                  <li class="name">Name</li>
-                  <li class="scores-no">20</li>
-                </div>
-                <div class="lists">
-                  <li class="name">Name</li>
-                  <li class="scores-no">20</li>
-                </div>
-                <div class="lists">
-                  <li class="name">Name</li>
-                  <li class="scores-no">20</li>
-                </div>
-                <div class="lists">
-                  <li class="name">Name</li>
-                  <li class="scores-no">20</li>
-                </div>
-                <div class="lists">
-                  <li class="name">Name</li>
-                  <li class="scores-no">20</li>
-                </div>
-              </ul>
-            </div>
+    <main>
+      <header>
+        <h2 class="app-title">leaderboard</h2>
+      </header>
+
+      <section class="details">
+        <div class="scoresheets">
+          <div class="container">
+            <h4 class="scoresheet-details">Recent scores</h4>
+            <button class="btn-ref">Refresh</button>
           </div>
-          <div class="input-records">
-            <form>
-              <h4 class="input-heading">Add your score</h4>
-              <input type="text" placeholder="Your name" id="name" />
-              <input type="text" placeholder="Your score" id="score" />
-              <button class="btn-submit">submit</button>
-            </form>
+          <div class="score-dashboard">
+            <ul class="scores"></ul>
           </div>
-        </section>
-      </main>
-    </section>
+        </div>
+        <div class="input-records">
+          <form>
+            <h4 class="input-heading">Add your score</h4>
+            <input type="text" placeholder="Your name" id="name" />
+            <br />
+            <input
+              type="number"
+              placeholder="Your score"
+              id="number"
+              required
+            />
+            <br />
+            <button class="btn-submit">submit</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
     <script type="modules" src="./index.js"></script>
   </body>
 </html>
