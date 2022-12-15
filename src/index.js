@@ -25,10 +25,10 @@ const gameScore = async () => {
   return data;
 };
 
-// const clearInput = () => {
-//   user.value = '';
-//   score.value = '';
-// };
+const clearInput = () => {
+  user.value = '';
+  score.value = '';
+};
 
 submitForm.addEventListener('click', (e) => {
   e.preventDefault();
